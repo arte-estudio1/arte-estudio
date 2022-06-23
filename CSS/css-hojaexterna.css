@@ -1,0 +1,113 @@
+<style>
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header .navbar{
+  
+  font-size: 22px !important;
+
+  font-family: times;
+
+     }
+     
+.body {
+  background-color: #FFDF2C;
+}
+/*GENERAL*/
+section{
+  background-color: #FFDF2C;
+}
+
+footer{
+  background-color: #FFDF2C;
+  text-align: center;
+  font-family: times;
+}
+
+h3{
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.titulo{
+  height: 65px;
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  font-family: times;
+}
+
+
+/*Tipografia que deberia ir*/
+label{
+  font-family: Garamond;
+  font-size: 20px;
+}
+
+
+/*CONTACTO*/
+
+/*Iconos*/
+.contenedor-icono svg{
+  width: 25px;
+  height: 25px;
+  color: black;
+}
+
+/*Ubicacion*/
+table, th , td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/*TITULO*/
+.subtitulo{
+  font-weight: bold;
+}
+
+.subtitulo-pp{
+  font-weight: bold;
+  text-align: center;
+}
+
+#mostrar{
+  display: none;
+}
+
+
+a:link , a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+/*Form*/
+#enviar{
+    font-family: 'roboto';
+    background: black;
+    border: none;
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.warnings{
+   
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    font-size: 20px;
+    font-family: times;
+}
+carousel-control-prev:visually-hidden{
+  color: red;
+}

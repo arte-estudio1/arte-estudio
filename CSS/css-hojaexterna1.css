@@ -1,0 +1,185 @@
+#taller-1{
+        display: none;
+      }
+#taller-2{
+        display: none;
+      }
+#taller-3{
+        display: none;
+      }
+#taller-4{
+        display: none;
+      }
+#taller-5{
+        display: none;
+      }
+#taller-6{
+        display: none;
+      }
+#tutor{
+        display: none;
+      }
+#mayor{
+        
+    display: none;
+      
+      }
+      
+#modal3{
+        background-color: #ffffff !important; 
+      }
+
+#info{
+  text-align: center;
+  font-family: times;
+  font-size: 18px;
+}
+#card{
+  border: black;
+  border-style: solid;
+  background-color: #FFDF2C !important;
+
+
+}
+table, th , td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/*TITULO*/
+.subtitulo{
+  font-weight: bold;
+}
+
+.subtitulo-pp{
+  font-weight: bold;
+  text-align: center;
+}
+
+.header .navbar{
+  
+  font-size: 22px !important;
+
+  font-family: times;
+
+     }
+.body {
+  background-color: #FFDF2C;
+}
+
+footer{
+  background-color: #FFDF2C;
+  text-align: center;
+  font-family: times;
+}
+
+h3{
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.title{
+  text-align: center;
+  font-family: times;
+}
+
+
+/*Tipografia que deberia ir*/
+label{
+  font-family: Garamond;
+  font-size: 20px;
+}
+
+.titulo{
+  height: 65px;
+   text-align: center;
+  }
+/*Iconos*/
+.contenedor-icono svg{
+  width: 25px;
+  height: 25px;
+  color: black;
+}
+/*Form*/
+#enviar{
+    font-family: 'roboto';
+    background: black;
+    border: none;
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#result{
+  font-size: 20px !important;
+  font-weight: bold;
+  text-align: center;
+}
+#result2{
+  font-weight: bold;
+  font-size: 20px !important;
+  text-align: center;
+}
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+.close:hover { 
+  background: #00d9ff; 
+}
+
